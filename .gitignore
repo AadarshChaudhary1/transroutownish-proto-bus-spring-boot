@@ -1,0 +1,20 @@
+#
+# .gitignore
+# =============================================================================
+# Urban bus routing microservice prototype. Version 0.30.5
+# =============================================================================
+# A Spring Boot-based application, designed and intended to be run
+# as a microservice, implementing a simple urban bus routing prototype.
+#
+# This is the configuration of the project Git ignorables,
+# i.e. objects that should not be put into the repository.
+#
+
+# === JVM classes =============================================================
+*.class
+target/
+
+# === Log files ===============================================================
+log/
+
+# vim:set nu et ts=4 sw=4:
